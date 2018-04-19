@@ -41,13 +41,25 @@ p {
 nav li, nav a{
     display: inline-flex;
     font-size: 13px;
+    margin-top: 73px;
+    padding: 0 11px 11px 0;
+           }
+
+nav a:focus, nav a:hover {
+
+    border-bottom: 2px solid #f26522;
+
 }
+
 
 nav ol {
     width: 430px;
    letter-spacing: 1.3px;
    line-height: 48px;
     margin-left: 174px;
+    height: 15px;
+
+
 
 }
 header nav ol li a {
@@ -55,9 +67,10 @@ header nav ol li a {
 }
 
 #logo {
-    display: inline-flex;
-    float: right;
-       border: aqua solid ;
+   float: right;
+    margin-right: 55px;
+    margin-top: 58px;
+
 }
 
 
@@ -65,4 +78,50 @@ header nav ol li a {
 aside h2 {
     color: white;
     margin-left: 174px;
+    }
+
+.pseudo-hamburer {
+    display: flex;
+    width: 18px;
+    height: 2px;
+    background-color:white;
+    margin: 6px;
+    margin-left: 174px;
+}
+
+aside {
+    margin-top: 475px;
+}
+
+#arrow1 {
+    margin-left: 266px;
+}
+
+#arrow2 {
+    margin-left: 174px;
+    height: 52px;
+    width: 52px;
+    margin-top: 100px;
+         }
+
+
+/*article*/
+
+.rectangle-background {
+    margin-left: 436px;
+    margin-top: -538px;
+    display: block;
+    width: 388px;
+    height: 775px;
+    background-color: #f26522;
+    color: white;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 75px;
+    }
+
+.rectangle-background p{
+
+    padding-top: 50px;
+    line-height: 23px;
 }
