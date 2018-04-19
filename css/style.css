@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1.4em;
+    vertical-align: baseline;
+    text-decoration: none;
+    outline: 0;
+}
+
+/*reset*/
+body {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    }
+
+h1 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+p {
+    font-size:14px;
+    font-weight: 400;
+    }
+
+                                    /* header*/
+
+.container {
+    background-image: url('../img/layer-7.png');
+    height: 1238px;
+    width: 100%;
+}
+
+
+nav li, nav a{
+    display: inline-flex;
+    font-size: 13px;
+}
+
+nav ol {
+    width: 430px;
+   letter-spacing: 1.3px;
+   line-height: 48px;
+
+}
+header nav ol li a {
+    color: white;
+}
+
+#logo {
+    display: inline-flex;
+    float: right;
+       border: aqua solid ;
+}
