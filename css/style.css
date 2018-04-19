@@ -47,6 +47,7 @@ nav ol {
     width: 430px;
    letter-spacing: 1.3px;
    line-height: 48px;
+    margin-left: 174px;
 
 }
 header nav ol li a {
@@ -57,4 +58,11 @@ header nav ol li a {
     display: inline-flex;
     float: right;
        border: aqua solid ;
+}
+
+
+/*aside*/
+aside h2 {
+    color: white;
+    margin-left: 174px;
 }
