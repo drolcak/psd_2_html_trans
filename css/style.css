@@ -124,4 +124,15 @@ aside {
 
     padding-top: 50px;
     line-height: 23px;
+    float: left;
+
+
+}
+
+#montain {
+    width: 775px;
+    height: 338px;
+    position: absolute;
+    top: 700px;
+
 }
